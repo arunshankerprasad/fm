@@ -11,4 +11,8 @@
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
 		p:prefix="/WEB-INF/views/" p:suffix=".jsp" />
 
+<!--	<bean id="viewResolver" class="org.springframework.web.servlet.view.ResourceBundleViewResolver" p:basename="views" />-->
+
+<!--	<bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles2.TilesConfigurer" p:definitions="/WEB-INF/tiles-defs.xml" /> -->
+
 </beans>
